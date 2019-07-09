@@ -4,6 +4,13 @@
 ## 写代码并运行
 * 用时约2小时
 ## 总结
+* 使用spring security框架实现身份验证和授权
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+```
 * WebSecurityConfig class extends WebSecurityConfigurerAdapter and overrides a couple of its methods 
 to set some specifics of the web security configuration.
   + WebSecurityConfig 这个类重写方法做了一些安全性设置
